@@ -1,0 +1,75 @@
+.Calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .wrapper {
+    width: 400px;
+    height: 800px;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+  }
+
+
+.button {
+    display: flex;
+    height: 2em;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #bee7e0;
+    color: rgb(43, 43, 43);
+    outline: 2.5px solid rgb(41, 40, 40);
+  }
+  .sign {
+    color: rgb(14, 136, 120);
+  }
+
+.screen {
+    display: flex;
+    height: 2em;
+    flex: 1;
+    background-color: rgb(3, 80, 70);
+    outline: 2.5px solid rgb(3, 80, 70);
+    color: rgb(211, 204, 204);
+    justify-content: flex-end;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: 1.4em;
+    align-items: center;
+  }
+
+
+
+  .clear {
+    display: flex;
+    flex: 1;
+    height: 2em;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    outline: 2.5px solid rgb(4, 110, 105);
+    height: 2em;
+    background-color: #117772;
+  }
+
+  .history {
+    display: flex;
+    height: 8em;
+    flex: 1;
+    background-color: rgb(4, 110, 105);
+    outline: 2.5px solid rgb(4, 110, 105);
+    color: rgb(14, 13, 13);
+    justify-content: flex-end;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: 1.4em;
+    align-items: center;
+  }
